@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e19fd4db-8505-40b8-99a7-dce9dd781bc6" name="we">
+        <fileTransfer rootFolder="/root/go/src/czend" accessType="SFTP" host="192.168.10.40" port="22" sshConfigId="68c003d4-486d-4694-81af-c7151435bc29" sshConfig="root@192.168.10.40:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
