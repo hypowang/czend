@@ -37,10 +37,12 @@ func main() {
 		return
 	}
 
-	util.Log().Info("config: %v", util.RelativePath(confPath))
-	util.Log().Info("Listen: %v", conf.SystemConfig.Listen)
-
 	setting.InitSetting(confPath)
+
+	util.Log().Info("config: %v", util.RelativePath(confPath))
+
+	util.Log().Info("Listen: %v", conf.SystemConfig.Listen)
+	util.Log().Info("Listen: %v", setting.HTTPPort)
 
 	router := routers.InitRouter()
 
