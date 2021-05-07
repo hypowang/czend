@@ -37,8 +37,6 @@ func main() {
 		return
 	}
 
-	setting.InitSetting(confPath)
-
 	util.Log().Info("config: %v", util.RelativePath(confPath))
 
 	util.Log().Info("Listen: %v", conf.SystemConfig.Listen)

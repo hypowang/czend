@@ -1,3 +1,3 @@
 ## Info
 
-this is a demo project
+this is a go-gin demo project
